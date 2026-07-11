@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: ecommerce
+    description: "Raw customer data loaded into PostgreSQL."
+
+    database: ecommerce_dw
+    schema: public
+
+    tables:
+      - name: staging_customer
+        description: "Raw customer staging table."
