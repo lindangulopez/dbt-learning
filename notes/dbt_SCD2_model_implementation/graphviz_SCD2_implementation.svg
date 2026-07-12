@@ -1,0 +1,370 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1107pt" height="853pt" viewBox="0.00 0.00 1107.00 853.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 848.8)">
+<title>LessonSummary</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-848.8 1103,-848.8 1103,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_scd2</title>
+<polygon fill="white" stroke="#5dade2" points="8,-8 8,-726.8 232,-726.8 232,-8 8,-8"/>
+<text xml:space="preserve" text-anchor="middle" x="120" y="-710.2" font-family="Arial" font-size="14.00">SCD2 Historical Tracking with dbt</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_storage</title>
+<polygon fill="white" stroke="#58d68d" points="240,-14 240,-98.8 881,-98.8 881,-14 240,-14"/>
+<text xml:space="preserve" text-anchor="middle" x="560.5" y="-82.2" font-family="Arial" font-size="14.00">Storage Efficiency Strategies</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_commands</title>
+<polygon fill="white" stroke="#f5b041" points="345,-524 345,-820.8 507,-820.8 507,-524 345,-524"/>
+<text xml:space="preserve" text-anchor="middle" x="426" y="-804.2" font-family="Arial" font-size="14.00">dbt Execution Workflow</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_quality</title>
+<polygon fill="white" stroke="#bb8fce" points="240,-426 240,-502.8 608,-502.8 608,-426 240,-426"/>
+<text xml:space="preserve" text-anchor="middle" x="424" y="-486.2" font-family="Arial" font-size="14.00">Data Quality Validation</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_accounting</title>
+<polygon fill="white" stroke="#ec7063" points="616,-416 616,-836.8 906,-836.8 906,-416 616,-416"/>
+<text xml:space="preserve" text-anchor="middle" x="761" y="-820.2" font-family="Arial" font-size="14.00">Accounting Document Management</text>
+</g>
+<g id="clust6" class="cluster">
+<title>cluster_employee</title>
+<polygon fill="white" stroke="#3498db" points="914,-514 914,-820.8 1091,-820.8 1091,-514 914,-514"/>
+<text xml:space="preserve" text-anchor="middle" x="1002.5" y="-804.2" font-family="Arial" font-size="14.00">Employee SCD2 Example</text>
+</g>
+<!-- A -->
+<g id="node1" class="node">
+<title>A</title>
+<path fill="#d6eaf8" stroke="black" d="M264.55,-788C264.55,-788 67.45,-788 67.45,-788 61.45,-788 55.45,-782 55.45,-776 55.45,-776 55.45,-764 55.45,-764 55.45,-758 61.45,-752 67.45,-752 67.45,-752 264.55,-752 264.55,-752 270.55,-752 276.55,-758 276.55,-764 276.55,-764 276.55,-776 276.55,-776 276.55,-782 270.55,-788 264.55,-788"/>
+<text xml:space="preserve" text-anchor="middle" x="166" y="-773" font-family="Arial" font-size="10.00">Business Data Sources</text>
+<text xml:space="preserve" text-anchor="middle" x="166" y="-761" font-family="Arial" font-size="10.00">(Product / Employee / Accounting Documents)</text>
+</g>
+<!-- B -->
+<g id="node2" class="node">
+<title>B</title>
+<path fill="#aed6f1" stroke="black" d="M212.03,-694C212.03,-694 119.97,-694 119.97,-694 113.97,-694 107.97,-688 107.97,-682 107.97,-682 107.97,-638 107.97,-638 107.97,-632 113.97,-626 119.97,-626 119.97,-626 212.03,-626 212.03,-626 218.03,-626 224.03,-632 224.03,-638 224.03,-638 224.03,-682 224.03,-682 224.03,-688 218.03,-694 212.03,-694"/>
+<text xml:space="preserve" text-anchor="middle" x="166" y="-681" font-family="Arial" font-size="10.00">Staging Model</text>
+<text xml:space="preserve" text-anchor="middle" x="166" y="-669" font-family="Arial" font-size="10.00">stg_products.sql</text>
+<text xml:space="preserve" text-anchor="middle" x="166" y="-645" font-family="Arial" font-size="10.00">Clean attributes</text>
+<text xml:space="preserve" text-anchor="middle" x="166" y="-633" font-family="Arial" font-size="10.00">Generate record_hash</text>
+</g>
+<!-- A&#45;&gt;B -->
+<g id="edge1" class="edge">
+<title>A-&gt;B</title>
+<path fill="none" stroke="black" d="M166,-751.65C166,-739.27 166,-722.02 166,-705.9"/>
+<polygon fill="black" stroke="black" points="169.5,-705.95 166,-695.95 162.5,-705.95 169.5,-705.95"/>
+</g>
+<!-- C -->
+<g id="node3" class="node">
+<title>C</title>
+<path fill="#85c1e9" stroke="black" d="M212.03,-568C212.03,-568 119.97,-568 119.97,-568 113.97,-568 107.97,-562 107.97,-556 107.97,-556 107.97,-544 107.97,-544 107.97,-538 113.97,-532 119.97,-532 119.97,-532 212.03,-532 212.03,-532 218.03,-532 224.03,-538 224.03,-544 224.03,-544 224.03,-556 224.03,-556 224.03,-562 218.03,-568 212.03,-568"/>
+<text xml:space="preserve" text-anchor="middle" x="166" y="-553" font-family="Arial" font-size="10.00">dbt Snapshot</text>
+<text xml:space="preserve" text-anchor="middle" x="166" y="-541" font-family="Arial" font-size="10.00">products_snapshot.sql</text>
+</g>
+<!-- B&#45;&gt;C -->
+<g id="edge2" class="edge">
+<title>B-&gt;C</title>
+<path fill="none" stroke="black" d="M166,-625.72C166,-611.05 166,-593.97 166,-579.85"/>
+<polygon fill="black" stroke="black" points="169.5,-579.86 166,-569.86 162.5,-579.86 169.5,-579.86"/>
+</g>
+<!-- D -->
+<g id="node4" class="node">
+<title>D</title>
+<path fill="#7fb3d5" stroke="black" d="M212.03,-474C212.03,-474 139.97,-474 139.97,-474 133.97,-474 127.97,-468 127.97,-462 127.97,-462 127.97,-442 127.97,-442 127.97,-436 133.97,-430 139.97,-430 139.97,-430 212.03,-430 212.03,-430 218.03,-430 224.03,-436 224.03,-442 224.03,-442 224.03,-462 224.03,-462 224.03,-468 218.03,-474 212.03,-474"/>
+<text xml:space="preserve" text-anchor="middle" x="176" y="-461" font-family="Arial" font-size="10.00">Change Detection</text>
+<text xml:space="preserve" text-anchor="middle" x="176" y="-449" font-family="Arial" font-size="10.00">check strategy</text>
+<text xml:space="preserve" text-anchor="middle" x="176" y="-437" font-family="Arial" font-size="10.00">check_cols</text>
+</g>
+<!-- C&#45;&gt;D -->
+<g id="edge3" class="edge">
+<title>C-&gt;D</title>
+<path fill="none" stroke="black" d="M167.79,-531.84C169.12,-519.03 170.99,-501.14 172.6,-485.64"/>
+<polygon fill="black" stroke="black" points="176.06,-486.2 173.62,-475.89 169.1,-485.47 176.06,-486.2"/>
+</g>
+<!-- E -->
+<g id="node5" class="node">
+<title>E</title>
+<path fill="#d4efdf" stroke="black" d="M211.7,-388C211.7,-388 96.3,-388 96.3,-388 90.3,-388 84.3,-382 84.3,-376 84.3,-376 84.3,-296 84.3,-296 84.3,-290 90.3,-284 96.3,-284 96.3,-284 211.7,-284 211.7,-284 217.7,-284 223.7,-290 223.7,-296 223.7,-296 223.7,-376 223.7,-376 223.7,-382 217.7,-388 211.7,-388"/>
+<text xml:space="preserve" text-anchor="middle" x="154" y="-375" font-family="Arial" font-size="10.00">Business Attribute Changes</text>
+<text xml:space="preserve" text-anchor="middle" x="154" y="-351" font-family="Arial" font-size="10.00">Price</text>
+<text xml:space="preserve" text-anchor="middle" x="154" y="-339" font-family="Arial" font-size="10.00">Supplier</text>
+<text xml:space="preserve" text-anchor="middle" x="154" y="-327" font-family="Arial" font-size="10.00">Category</text>
+<text xml:space="preserve" text-anchor="middle" x="154" y="-315" font-family="Arial" font-size="10.00">Status</text>
+<text xml:space="preserve" text-anchor="middle" x="154" y="-303" font-family="Arial" font-size="10.00">Department</text>
+<text xml:space="preserve" text-anchor="middle" x="154" y="-291" font-family="Arial" font-size="10.00">Salary</text>
+</g>
+<!-- D&#45;&gt;E -->
+<g id="edge4" class="edge">
+<title>D-&gt;E</title>
+<path fill="none" stroke="black" d="M171.86,-429.56C170.16,-420.75 168.1,-410.07 165.99,-399.12"/>
+<polygon fill="black" stroke="black" points="169.49,-398.8 164.16,-389.64 162.62,-400.12 169.49,-398.8"/>
+</g>
+<!-- I -->
+<g id="node9" class="node">
+<title>I</title>
+<path fill="#d5f5e3" stroke="black" d="M548.25,-66C548.25,-66 431.75,-66 431.75,-66 425.75,-66 419.75,-60 419.75,-54 419.75,-54 419.75,-34 419.75,-34 419.75,-28 425.75,-22 431.75,-22 431.75,-22 548.25,-22 548.25,-22 554.25,-22 560.25,-28 560.25,-34 560.25,-34 560.25,-54 560.25,-54 560.25,-60 554.25,-66 548.25,-66"/>
+<text xml:space="preserve" text-anchor="middle" x="490" y="-53" font-family="Arial" font-size="10.00">Hash Based Detection</text>
+<text xml:space="preserve" text-anchor="middle" x="490" y="-29" font-family="Arial" font-size="10.00">Avoid unnecessary versions</text>
+</g>
+<!-- D&#45;&gt;I -->
+<g id="edge8" class="edge">
+<title>D-&gt;I</title>
+<path fill="none" stroke="black" d="M196.29,-429.57C207.41,-417.58 221.27,-402.23 233,-388 325.08,-276.26 425.67,-136.21 468.62,-75.45"/>
+<polygon fill="black" stroke="black" points="471.24,-77.82 474.14,-67.64 465.52,-73.79 471.24,-77.82"/>
+</g>
+<!-- J -->
+<g id="node10" class="node">
+<title>J</title>
+<path fill="#d5f5e3" stroke="black" d="M703.3,-66C703.3,-66 590.7,-66 590.7,-66 584.7,-66 578.7,-60 578.7,-54 578.7,-54 578.7,-34 578.7,-34 578.7,-28 584.7,-22 590.7,-22 590.7,-22 703.3,-22 703.3,-22 709.3,-22 715.3,-28 715.3,-34 715.3,-34 715.3,-54 715.3,-54 715.3,-60 709.3,-66 703.3,-66"/>
+<text xml:space="preserve" text-anchor="middle" x="647" y="-53" font-family="Arial" font-size="10.00">Selective Tracking</text>
+<text xml:space="preserve" text-anchor="middle" x="647" y="-29" font-family="Arial" font-size="10.00">Only business-critical fields</text>
+</g>
+<!-- D&#45;&gt;J -->
+<g id="edge9" class="edge">
+<title>D-&gt;J</title>
+<path fill="none" stroke="black" d="M212.37,-429.51C220.14,-425 228.32,-420.31 236,-416 258.9,-403.16 266.76,-403.43 288,-388 425.88,-287.84 564.91,-137.81 621.08,-74.68"/>
+<polygon fill="black" stroke="black" points="623.43,-77.3 627.44,-67.49 618.19,-72.66 623.43,-77.3"/>
+</g>
+<!-- K -->
+<g id="node11" class="node">
+<title>K</title>
+<path fill="#d5f5e3" stroke="black" d="M860.98,-66C860.98,-66 745.02,-66 745.02,-66 739.02,-66 733.02,-60 733.02,-54 733.02,-54 733.02,-34 733.02,-34 733.02,-28 739.02,-22 745.02,-22 745.02,-22 860.98,-22 860.98,-22 866.98,-22 872.98,-28 872.98,-34 872.98,-34 872.98,-54 872.98,-54 872.98,-60 866.98,-66 860.98,-66"/>
+<text xml:space="preserve" text-anchor="middle" x="803" y="-53" font-family="Arial" font-size="10.00">Threshold Based Detection</text>
+<text xml:space="preserve" text-anchor="middle" x="803" y="-29" font-family="Arial" font-size="10.00">Ignore insignificant changes</text>
+</g>
+<!-- D&#45;&gt;K -->
+<g id="edge10" class="edge">
+<title>D-&gt;K</title>
+<path fill="none" stroke="black" d="M208.4,-429.64C217.09,-424.6 226.68,-419.64 236,-416 289.84,-394.96 310.69,-412.6 363,-388 539.09,-305.19 709.79,-141.1 775.1,-74.31"/>
+<polygon fill="black" stroke="black" points="777.38,-76.99 781.84,-67.38 772.36,-72.11 777.38,-76.99"/>
+</g>
+<!-- F -->
+<g id="node6" class="node">
+<title>F</title>
+<path fill="#a9dfbf" stroke="black" d="M211.69,-248C211.69,-248 86.31,-248 86.31,-248 80.31,-248 74.31,-242 74.31,-236 74.31,-236 74.31,-224 74.31,-224 74.31,-218 80.31,-212 86.31,-212 86.31,-212 211.69,-212 211.69,-212 217.69,-212 223.69,-218 223.69,-224 223.69,-224 223.69,-236 223.69,-236 223.69,-242 217.69,-248 211.69,-248"/>
+<text xml:space="preserve" text-anchor="middle" x="149" y="-227" font-family="Arial" font-size="10.00">Create New Historical Version</text>
+</g>
+<!-- E&#45;&gt;F -->
+<g id="edge5" class="edge">
+<title>E-&gt;F</title>
+<path fill="none" stroke="black" d="M151.53,-283.61C151.13,-275.38 150.74,-267.13 150.38,-259.68"/>
+<polygon fill="black" stroke="black" points="153.89,-259.75 149.91,-249.93 146.89,-260.08 153.89,-259.75"/>
+</g>
+<!-- G -->
+<g id="node7" class="node">
+<title>G</title>
+<path fill="#abebc6" stroke="black" d="M184.57,-176C184.57,-176 121.43,-176 121.43,-176 115.43,-176 109.43,-170 109.43,-164 109.43,-164 109.43,-120 109.43,-120 109.43,-114 115.43,-108 121.43,-108 121.43,-108 184.57,-108 184.57,-108 190.57,-108 196.57,-114 196.57,-120 196.57,-120 196.57,-164 196.57,-164 196.57,-170 190.57,-176 184.57,-176"/>
+<text xml:space="preserve" text-anchor="middle" x="153" y="-163" font-family="Arial" font-size="10.00">SCD2 Metadata</text>
+<text xml:space="preserve" text-anchor="middle" x="153" y="-139" font-family="Arial" font-size="10.00">dbt_scd_id</text>
+<text xml:space="preserve" text-anchor="middle" x="153" y="-127" font-family="Arial" font-size="10.00"> dbt_valid_from</text>
+<text xml:space="preserve" text-anchor="middle" x="153" y="-115" font-family="Arial" font-size="10.00"> dbt_valid_to</text>
+</g>
+<!-- F&#45;&gt;G -->
+<g id="edge6" class="edge">
+<title>F-&gt;G</title>
+<path fill="none" stroke="black" d="M149.81,-211.6C150.13,-204.65 150.52,-196.29 150.91,-187.84"/>
+<polygon fill="black" stroke="black" points="154.41,-188.05 151.38,-177.9 147.42,-187.72 154.41,-188.05"/>
+</g>
+<!-- H -->
+<g id="node8" class="node">
+<title>H</title>
+<path fill="#f9e79f" stroke="black" d="M207.92,-72C207.92,-72 98.08,-72 98.08,-72 92.08,-72 86.08,-66 86.08,-60 86.08,-60 86.08,-28 86.08,-28 86.08,-22 92.08,-16 98.08,-16 98.08,-16 207.92,-16 207.92,-16 213.92,-16 219.92,-22 219.92,-28 219.92,-28 219.92,-60 219.92,-60 219.92,-66 213.92,-72 207.92,-72"/>
+<text xml:space="preserve" text-anchor="middle" x="153" y="-59" font-family="Arial" font-size="10.00">Current Dimension</text>
+<text xml:space="preserve" text-anchor="middle" x="153" y="-47" font-family="Arial" font-size="10.00"> dim_products_current</text>
+<text xml:space="preserve" text-anchor="middle" x="153" y="-23" font-family="Arial" font-size="10.00">Only dbt_valid_to IS NULL</text>
+</g>
+<!-- G&#45;&gt;H -->
+<g id="edge7" class="edge">
+<title>G-&gt;H</title>
+<path fill="none" stroke="black" d="M153,-107.69C153,-99.91 153,-91.55 153,-83.56"/>
+<polygon fill="black" stroke="black" points="156.5,-83.73 153,-73.73 149.5,-83.73 156.5,-83.73"/>
+</g>
+<!-- L -->
+<g id="node12" class="node">
+<title>L</title>
+<path fill="#d5f5e3" stroke="black" d="M389.92,-66C389.92,-66 260.08,-66 260.08,-66 254.08,-66 248.08,-60 248.08,-54 248.08,-54 248.08,-34 248.08,-34 248.08,-28 254.08,-22 260.08,-22 260.08,-22 389.92,-22 389.92,-22 395.92,-22 401.92,-28 401.92,-34 401.92,-34 401.92,-54 401.92,-54 401.92,-60 395.92,-66 389.92,-66"/>
+<text xml:space="preserve" text-anchor="middle" x="325" y="-53" font-family="Arial" font-size="10.00">Surrogate Keys</text>
+<text xml:space="preserve" text-anchor="middle" x="325" y="-29" font-family="Arial" font-size="10.00">Improve joins and performance</text>
+</g>
+<!-- G&#45;&gt;L -->
+<g id="edge11" class="edge">
+<title>G-&gt;L</title>
+<path fill="none" stroke="black" d="M196.82,-119.47C209.56,-113.02 223.42,-105.79 236,-98.8 251,-90.47 267.14,-80.9 281.49,-72.17"/>
+<polygon fill="black" stroke="black" points="283.12,-75.28 289.82,-67.08 279.46,-69.31 283.12,-75.28"/>
+</g>
+<!-- M -->
+<g id="node13" class="node">
+<title>M</title>
+<path fill="#fcf3cf" stroke="black" d="M450.63,-788C450.63,-788 401.37,-788 401.37,-788 395.37,-788 389.37,-782 389.37,-776 389.37,-776 389.37,-764 389.37,-764 389.37,-758 395.37,-752 401.37,-752 401.37,-752 450.63,-752 450.63,-752 456.63,-752 462.63,-758 462.63,-764 462.63,-764 462.63,-776 462.63,-776 462.63,-782 456.63,-788 450.63,-788"/>
+<text xml:space="preserve" text-anchor="middle" x="426" y="-773" font-family="Arial" font-size="10.00">dbt run</text>
+<text xml:space="preserve" text-anchor="middle" x="426" y="-761" font-family="Arial" font-size="10.00">Build models</text>
+</g>
+<!-- N -->
+<g id="node14" class="node">
+<title>N</title>
+<path fill="#fad7a0" stroke="black" d="M474.81,-678C474.81,-678 377.19,-678 377.19,-678 371.19,-678 365.19,-672 365.19,-666 365.19,-666 365.19,-654 365.19,-654 365.19,-648 371.19,-642 377.19,-642 377.19,-642 474.81,-642 474.81,-642 480.81,-642 486.81,-648 486.81,-654 486.81,-654 486.81,-666 486.81,-666 486.81,-672 480.81,-678 474.81,-678"/>
+<text xml:space="preserve" text-anchor="middle" x="426" y="-663" font-family="Arial" font-size="10.00">dbt snapshot</text>
+<text xml:space="preserve" text-anchor="middle" x="426" y="-651" font-family="Arial" font-size="10.00">Capture SCD2 changes</text>
+</g>
+<!-- M&#45;&gt;N -->
+<g id="edge12" class="edge">
+<title>M-&gt;N</title>
+<path fill="none" stroke="black" d="M426,-751.65C426,-734.96 426,-709.42 426,-689.7"/>
+<polygon fill="black" stroke="black" points="429.5,-689.82 426,-679.82 422.5,-689.82 429.5,-689.82"/>
+</g>
+<!-- O -->
+<g id="node15" class="node">
+<title>O</title>
+<path fill="#f8c471" stroke="black" d="M455.91,-568C455.91,-568 396.09,-568 396.09,-568 390.09,-568 384.09,-562 384.09,-556 384.09,-556 384.09,-544 384.09,-544 384.09,-538 390.09,-532 396.09,-532 396.09,-532 455.91,-532 455.91,-532 461.91,-532 467.91,-538 467.91,-544 467.91,-544 467.91,-556 467.91,-556 467.91,-562 461.91,-568 455.91,-568"/>
+<text xml:space="preserve" text-anchor="middle" x="426" y="-553" font-family="Arial" font-size="10.00">dbt test</text>
+<text xml:space="preserve" text-anchor="middle" x="426" y="-541" font-family="Arial" font-size="10.00">Validate quality</text>
+</g>
+<!-- N&#45;&gt;O -->
+<g id="edge13" class="edge">
+<title>N-&gt;O</title>
+<path fill="none" stroke="black" d="M426,-641.65C426,-624.96 426,-599.42 426,-579.7"/>
+<polygon fill="black" stroke="black" points="429.5,-579.82 426,-569.82 422.5,-579.82 429.5,-579.82"/>
+</g>
+<!-- P -->
+<g id="node16" class="node">
+<title>P</title>
+<path fill="#e8daef" stroke="black" d="M342.02,-470C342.02,-470 259.98,-470 259.98,-470 253.98,-470 247.98,-464 247.98,-458 247.98,-458 247.98,-446 247.98,-446 247.98,-440 253.98,-434 259.98,-434 259.98,-434 342.02,-434 342.02,-434 348.02,-434 354.02,-440 354.02,-446 354.02,-446 354.02,-458 354.02,-458 354.02,-464 348.02,-470 342.02,-470"/>
+<text xml:space="preserve" text-anchor="middle" x="301" y="-455" font-family="Arial" font-size="10.00">One Current Record</text>
+<text xml:space="preserve" text-anchor="middle" x="301" y="-443" font-family="Arial" font-size="10.00">per Business Key</text>
+</g>
+<!-- O&#45;&gt;P -->
+<g id="edge14" class="edge">
+<title>O-&gt;P</title>
+<path fill="none" stroke="black" d="M401.88,-531.69C390.07,-523.12 375.7,-512.55 363,-502.8 352.44,-494.69 341.03,-485.62 330.92,-477.47"/>
+<polygon fill="black" stroke="black" points="333.2,-474.81 323.23,-471.24 328.8,-480.25 333.2,-474.81"/>
+</g>
+<!-- Q -->
+<g id="node17" class="node">
+<title>Q</title>
+<path fill="#e8daef" stroke="black" d="M468,-470C468,-470 384,-470 384,-470 378,-470 372,-464 372,-458 372,-458 372,-446 372,-446 372,-440 378,-434 384,-434 384,-434 468,-434 468,-434 474,-434 480,-440 480,-446 480,-446 480,-458 480,-458 480,-464 474,-470 468,-470"/>
+<text xml:space="preserve" text-anchor="middle" x="426" y="-455" font-family="Arial" font-size="10.00">Temporal Validation</text>
+<text xml:space="preserve" text-anchor="middle" x="426" y="-443" font-family="Arial" font-size="10.00">valid_from &lt; valid_to</text>
+</g>
+<!-- O&#45;&gt;Q -->
+<g id="edge15" class="edge">
+<title>O-&gt;Q</title>
+<path fill="none" stroke="black" d="M426,-531.84C426,-517.86 426,-497.84 426,-481.47"/>
+<polygon fill="black" stroke="black" points="429.5,-481.85 426,-471.85 422.5,-481.85 429.5,-481.85"/>
+</g>
+<!-- R -->
+<g id="node18" class="node">
+<title>R</title>
+<path fill="#e8daef" stroke="black" d="M587.53,-470C587.53,-470 510.47,-470 510.47,-470 504.47,-470 498.47,-464 498.47,-458 498.47,-458 498.47,-446 498.47,-446 498.47,-440 504.47,-434 510.47,-434 510.47,-434 587.53,-434 587.53,-434 593.53,-434 599.53,-440 599.53,-446 599.53,-446 599.53,-458 599.53,-458 599.53,-464 593.53,-470 587.53,-470"/>
+<text xml:space="preserve" text-anchor="middle" x="549" y="-455" font-family="Arial" font-size="10.00">Price Validation</text>
+<text xml:space="preserve" text-anchor="middle" x="549" y="-443" font-family="Arial" font-size="10.00">No negative values</text>
+</g>
+<!-- O&#45;&gt;R -->
+<g id="edge16" class="edge">
+<title>O-&gt;R</title>
+<path fill="none" stroke="black" d="M450.49,-531.57C462.26,-523.05 476.49,-512.56 489,-502.8 499.29,-494.76 510.35,-485.71 520.13,-477.55"/>
+<polygon fill="black" stroke="black" points="522.13,-480.45 527.54,-471.34 517.63,-475.08 522.13,-480.45"/>
+</g>
+<!-- S -->
+<g id="node19" class="node">
+<title>S</title>
+<path fill="#f5b7b1" stroke="black" d="M822.59,-804C822.59,-804 699.41,-804 699.41,-804 693.41,-804 687.41,-798 687.41,-792 687.41,-792 687.41,-748 687.41,-748 687.41,-742 693.41,-736 699.41,-736 699.41,-736 822.59,-736 822.59,-736 828.59,-736 834.59,-742 834.59,-748 834.59,-748 834.59,-792 834.59,-792 834.59,-798 828.59,-804 822.59,-804"/>
+<text xml:space="preserve" text-anchor="middle" x="761" y="-791" font-family="Arial" font-size="10.00">Document Naming Standards</text>
+<text xml:space="preserve" text-anchor="middle" x="761" y="-767" font-family="Arial" font-size="10.00">Entity Code</text>
+<text xml:space="preserve" text-anchor="middle" x="761" y="-755" font-family="Arial" font-size="10.00">Document Type</text>
+<text xml:space="preserve" text-anchor="middle" x="761" y="-743" font-family="Arial" font-size="10.00">Unique Reference</text>
+</g>
+<!-- T -->
+<g id="node20" class="node">
+<title>T</title>
+<path fill="#f1948a" stroke="black" d="M808.42,-694C808.42,-694 713.58,-694 713.58,-694 707.58,-694 701.58,-688 701.58,-682 701.58,-682 701.58,-638 701.58,-638 701.58,-632 707.58,-626 713.58,-626 713.58,-626 808.42,-626 808.42,-626 814.42,-626 820.42,-632 820.42,-638 820.42,-638 820.42,-682 820.42,-682 820.42,-688 814.42,-694 808.42,-694"/>
+<text xml:space="preserve" text-anchor="middle" x="761" y="-681" font-family="Arial" font-size="10.00">Metadata Management</text>
+<text xml:space="preserve" text-anchor="middle" x="761" y="-657" font-family="Arial" font-size="10.00">Core Metadata</text>
+<text xml:space="preserve" text-anchor="middle" x="761" y="-645" font-family="Arial" font-size="10.00">Relationship Metadata</text>
+<text xml:space="preserve" text-anchor="middle" x="761" y="-633" font-family="Arial" font-size="10.00">Workflow Metadata</text>
+</g>
+<!-- S&#45;&gt;T -->
+<g id="edge17" class="edge">
+<title>S-&gt;T</title>
+<path fill="none" stroke="black" d="M761,-735.72C761,-726.27 761,-715.83 761,-705.82"/>
+<polygon fill="black" stroke="black" points="764.5,-705.87 761,-695.87 757.5,-705.87 764.5,-705.87"/>
+</g>
+<!-- U -->
+<g id="node21" class="node">
+<title>U</title>
+<path fill="#f1948a" stroke="black" d="M811.74,-584C811.74,-584 710.26,-584 710.26,-584 704.26,-584 698.26,-578 698.26,-572 698.26,-572 698.26,-528 698.26,-528 698.26,-522 704.26,-516 710.26,-516 710.26,-516 811.74,-516 811.74,-516 817.74,-516 823.74,-522 823.74,-528 823.74,-528 823.74,-572 823.74,-572 823.74,-578 817.74,-584 811.74,-584"/>
+<text xml:space="preserve" text-anchor="middle" x="761" y="-571" font-family="Arial" font-size="10.00">Cross-System Validation</text>
+<text xml:space="preserve" text-anchor="middle" x="761" y="-547" font-family="Arial" font-size="10.00">QuickBooks Logs</text>
+<text xml:space="preserve" text-anchor="middle" x="761" y="-535" font-family="Arial" font-size="10.00">vs</text>
+<text xml:space="preserve" text-anchor="middle" x="761" y="-523" font-family="Arial" font-size="10.00">Document Storage</text>
+</g>
+<!-- T&#45;&gt;U -->
+<g id="edge18" class="edge">
+<title>T-&gt;U</title>
+<path fill="none" stroke="black" d="M761,-625.72C761,-616.27 761,-605.83 761,-595.82"/>
+<polygon fill="black" stroke="black" points="764.5,-595.87 761,-585.87 757.5,-595.87 764.5,-595.87"/>
+</g>
+<!-- V -->
+<g id="node22" class="node">
+<title>V</title>
+<path fill="#f1948a" stroke="black" d="M741.98,-480C741.98,-480 636.02,-480 636.02,-480 630.02,-480 624.02,-474 624.02,-468 624.02,-468 624.02,-436 624.02,-436 624.02,-430 630.02,-424 636.02,-424 636.02,-424 741.98,-424 741.98,-424 747.98,-424 753.98,-430 753.98,-436 753.98,-436 753.98,-468 753.98,-468 753.98,-474 747.98,-480 741.98,-480"/>
+<text xml:space="preserve" text-anchor="middle" x="689" y="-467" font-family="Arial" font-size="10.00">Sequential Gap Detection</text>
+<text xml:space="preserve" text-anchor="middle" x="689" y="-443" font-family="Arial" font-size="10.00">Compare consecutive</text>
+<text xml:space="preserve" text-anchor="middle" x="689" y="-431" font-family="Arial" font-size="10.00">invoice numbers</text>
+</g>
+<!-- U&#45;&gt;V -->
+<g id="edge19" class="edge">
+<title>U-&gt;V</title>
+<path fill="none" stroke="black" d="M736.02,-515.69C729.64,-507.18 722.74,-497.99 716.25,-489.34"/>
+<polygon fill="black" stroke="black" points="719.12,-487.32 710.32,-481.42 713.52,-491.52 719.12,-487.32"/>
+</g>
+<!-- W -->
+<g id="node23" class="node">
+<title>W</title>
+<path fill="#f1948a" stroke="black" d="M886.3,-474C886.3,-474 783.7,-474 783.7,-474 777.7,-474 771.7,-468 771.7,-462 771.7,-462 771.7,-442 771.7,-442 771.7,-436 777.7,-430 783.7,-430 783.7,-430 886.3,-430 886.3,-430 892.3,-430 898.3,-436 898.3,-442 898.3,-442 898.3,-462 898.3,-462 898.3,-468 892.3,-474 886.3,-474"/>
+<text xml:space="preserve" text-anchor="middle" x="835" y="-461" font-family="Arial" font-size="10.00">Duplicate Detection</text>
+<text xml:space="preserve" text-anchor="middle" x="835" y="-437" font-family="Arial" font-size="10.00">Multiple matching criteria</text>
+</g>
+<!-- U&#45;&gt;W -->
+<g id="edge20" class="edge">
+<title>U-&gt;W</title>
+<path fill="none" stroke="black" d="M786.67,-515.69C794.79,-505.16 803.71,-493.59 811.66,-483.28"/>
+<polygon fill="black" stroke="black" points="814.37,-485.49 817.71,-475.43 808.83,-481.22 814.37,-485.49"/>
+</g>
+<!-- X -->
+<g id="node24" class="node">
+<title>X</title>
+<path fill="#d6eaf8" stroke="black" d="M1045.24,-788C1045.24,-788 958.76,-788 958.76,-788 952.76,-788 946.76,-782 946.76,-776 946.76,-776 946.76,-764 946.76,-764 946.76,-758 952.76,-752 958.76,-752 958.76,-752 1045.24,-752 1045.24,-752 1051.24,-752 1057.24,-758 1057.24,-764 1057.24,-764 1057.24,-776 1057.24,-776 1057.24,-782 1051.24,-788 1045.24,-788"/>
+<text xml:space="preserve" text-anchor="middle" x="1002" y="-767" font-family="Arial" font-size="10.00">Employee Dimension</text>
+</g>
+<!-- Y -->
+<g id="node25" class="node">
+<title>Y</title>
+<path fill="#aed6f1" stroke="black" d="M1053.58,-700C1053.58,-700 950.42,-700 950.42,-700 944.42,-700 938.42,-694 938.42,-688 938.42,-688 938.42,-632 938.42,-632 938.42,-626 944.42,-620 950.42,-620 950.42,-620 1053.58,-620 1053.58,-620 1059.58,-620 1065.58,-626 1065.58,-632 1065.58,-632 1065.58,-688 1065.58,-688 1065.58,-694 1059.58,-700 1053.58,-700"/>
+<text xml:space="preserve" text-anchor="middle" x="1002" y="-687" font-family="Arial" font-size="10.00">Track Business Changes</text>
+<text xml:space="preserve" text-anchor="middle" x="1002" y="-663" font-family="Arial" font-size="10.00">Department</text>
+<text xml:space="preserve" text-anchor="middle" x="1002" y="-651" font-family="Arial" font-size="10.00">Salary</text>
+<text xml:space="preserve" text-anchor="middle" x="1002" y="-639" font-family="Arial" font-size="10.00">Job Title</text>
+<text xml:space="preserve" text-anchor="middle" x="1002" y="-627" font-family="Arial" font-size="10.00">Manager</text>
+</g>
+<!-- X&#45;&gt;Y -->
+<g id="edge21" class="edge">
+<title>X-&gt;Y</title>
+<path fill="none" stroke="black" d="M1002,-751.65C1002,-740.73 1002,-726.03 1002,-711.65"/>
+<polygon fill="black" stroke="black" points="1005.5,-711.78 1002,-701.78 998.5,-711.78 1005.5,-711.78"/>
+</g>
+<!-- Z -->
+<g id="node26" class="node">
+<title>Z</title>
+<path fill="#85c1e9" stroke="black" d="M1031.07,-578C1031.07,-578 972.93,-578 972.93,-578 966.93,-578 960.93,-572 960.93,-566 960.93,-566 960.93,-534 960.93,-534 960.93,-528 966.93,-522 972.93,-522 972.93,-522 1031.07,-522 1031.07,-522 1037.07,-522 1043.07,-528 1043.07,-534 1043.07,-534 1043.07,-566 1043.07,-566 1043.07,-572 1037.07,-578 1031.07,-578"/>
+<text xml:space="preserve" text-anchor="middle" x="1002" y="-565" font-family="Arial" font-size="10.00">Avoid Tracking</text>
+<text xml:space="preserve" text-anchor="middle" x="1002" y="-541" font-family="Arial" font-size="10.00">Last Login</text>
+<text xml:space="preserve" text-anchor="middle" x="1002" y="-529" font-family="Arial" font-size="10.00">System Fields</text>
+</g>
+<!-- Y&#45;&gt;Z -->
+<g id="edge22" class="edge">
+<title>Y-&gt;Z</title>
+<path fill="none" stroke="black" d="M1002,-619.7C1002,-609.93 1002,-599.46 1002,-589.71"/>
+<polygon fill="black" stroke="black" points="1005.5,-589.79 1002,-579.79 998.5,-589.79 1005.5,-589.79"/>
+</g>
+</g>
+</svg>
